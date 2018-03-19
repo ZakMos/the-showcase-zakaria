@@ -1,0 +1,91 @@
+/**
+ * LAYOUT
+ */
+
+/**
+ * LAYOUT HELPERS
+ */
+/* Grid */
+.row {
+  clear: both;
+  padding: 1px;
+}
+
+/** Clearfix **/
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  padding: 0 1em;
+}
+
+.col-2-1 {
+  width: 50%;
+}
+
+.col-2-2 {
+  width: 50%;
+}
+
+.content-wrapper {
+  max-width: 1024px;
+  width: 75%;
+  margin: auto;
+  text-align: justify;
+}
+
+/* End grid */
+/* Navigation */
+.site-navigation {
+  text-align: center;
+  margin-bottom: 0em;
+}
+
+.site-navigation ul {
+  font-size:0; /* clears whitespace */
+}
+
+.site-navigation>ul>li {
+  font-size: 2.4rem;
+  display: inline-block;
+  margin-top: 0;
+  text-align: center;
+
+}
+
+.site-navigation>ul>li>a {
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+  display: inline-block;
+
+}
+
+.site-navigation>ul>li>a:hover {
+  background-color: lightgreen;
+}
+
+.site-navigation>ul>li>a:active {
+  text-decoration: underline;
+}
+
+
+.selected {
+  background-color: lightgreen;
+}
+
+
+/* End navigation */
+
+/* Site specific */
+header, footer {
+  background: #228B22;
+}
+
+.site-content {
+  min-height: calc(100vh - 151.375px - 52px); /* full height - header height - footer height */
+}

@@ -1,0 +1,63 @@
+.col-4-1 {
+  width: 25%;
+}
+
+.col-4-2 {
+  width: 75%;
+}
+
+
+
+.contact4-1, .contact4-2, .contact4-3 {
+    position:relative;
+    padding-top: 10px;
+}
+
+
+.contact4-1 span, .contact4-2 span, .contact4-3 span {
+  left: 0;
+  position:absolute;
+  text-align:center;
+  top: 9px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-top: 10px;
+}
+
+
+
+
+.contact-form>* {
+  border: none;
+}
+
+
+.f4-1 {
+  display: flex;
+  padding: 0;
+  width: 50vw;
+
+
+}
+.f4-1 ul {
+  list-style-type: none;
+}
+
+
+.f4-1 input {
+  width: 48%;
+  float: left;
+  overflow: auto;
+  padding-left: 1px;
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+
+.f4-2 input, .f4-3 input {
+  margin: 0;
+  width: 100%;
+  float: left;
+  overflow: auto;
+}
